@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+<title id="title">Hasan Bera Kabadayı · Full-stack Developer</title>
+<desc id="desc">Animated name reveal. Frontend: React, Angular, Next.js, TypeScript, JavaScript, HTML and CSS. Backend: NestJS, Node.js, Express, Spring Boot, ASP.NET Core, Python, C# and C++.</desc>
+<style>
+ text{font-family:'Segoe UI',Arial,sans-serif;fill:#f0f6fc}
+ .eyebrow{font-size:13px;font-weight:600;letter-spacing:2.4px;fill:#8b949e}
+ .name{font-size:66px;font-weight:650;letter-spacing:-2px}
+ .reveal{animation:reveal 14s steps(24,end) infinite;width:0}
+ .front{animation:frontend 26s linear infinite}
+ .back{animation:backend 35s linear infinite}
+ .tech text{font-size:23px;font-weight:500;letter-spacing:.2px}
+ .dot{fill:#8b949e;opacity:.5}
+ .label{font-size:12px;font-weight:650;letter-spacing:1.7px}
+ @keyframes reveal{0%,3%{width:0}24%,87%{width:1040px}98%,100%{width:0}}
+ @keyframes frontend{from{transform:translateX(0)}to{transform:translateX(-1019px)}}
+ @keyframes backend{from{transform:translateX(-1259px)}to{transform:translateX(0)}}
+ @media(prefers-reduced-motion:reduce){.reveal{animation:none;width:1040px}.front,.back{animation:none;transform:none}}
+</style>
+<defs>
+ <clipPath id="name-window"><rect class="reveal" x="34" y="55" width="1040" height="89"/></clipPath>
+ <clipPath id="tech-window"><rect x="212" y="158" width="954" height="116"/></clipPath>
+ <linearGradient id="fade"><stop offset="0" stop-color="white" stop-opacity="0"/><stop offset=".035" stop-color="white"/><stop offset=".965" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+ <mask id="tech-fade"><rect x="212" y="158" width="954" height="116" fill="url(#fade)"/></mask>
+</defs>
+<rect x="0" y="17" width="3" height="116" rx="1.5" fill="#58a6ff"/>
+<text x="34" y="35" class="eyebrow">FULL-STACK DEVELOPER</text>
+<g clip-path="url(#name-window)"><text x="31" y="116" class="name">Hasan <tspan style="fill:#58a6ff">Bera</tspan> Kabadayı<tspan style="fill:#58a6ff">.</tspan></text></g>
+<path d="M34 147H1166" stroke="#30363d" stroke-width="1"/>
+<text x="34" y="198" class="label" style="fill:#58a6ff">FRONTEND</text>
+<text x="34" y="250" class="label" style="fill:#bc8cff">BACKEND</text>
+<g clip-path="url(#tech-window)" mask="url(#tech-fade)">
+ <g transform="translate(212 199)" class="tech"><g class="front"><text x="0" y="0">React</text><circle cx="109" cy="-6" r="2" class="dot"/><text x="133" y="0">Angular</text><circle cx="268" cy="-6" r="2" class="dot"/><text x="292" y="0">Next.js</text><circle cx="421" cy="-6" r="2" class="dot"/><text x="445" y="0">TypeScript</text><circle cx="606" cy="-6" r="2" class="dot"/><text x="630" y="0">JavaScript</text><circle cx="793" cy="-6" r="2" class="dot"/><text x="817" y="0">HTML / CSS</text><circle cx="995" cy="-6" r="2" class="dot"/><g transform="translate(1019 0)"><text x="0" y="0">React</text><circle cx="109" cy="-6" r="2" class="dot"/><text x="133" y="0">Angular</text><circle cx="268" cy="-6" r="2" class="dot"/><text x="292" y="0">Next.js</text><circle cx="421" cy="-6" r="2" class="dot"/><text x="445" y="0">TypeScript</text><circle cx="606" cy="-6" r="2" class="dot"/><text x="630" y="0">JavaScript</text><circle cx="793" cy="-6" r="2" class="dot"/><text x="817" y="0">HTML / CSS</text><circle cx="995" cy="-6" r="2" class="dot"/></g></g></g>
+ <g transform="translate(212 251)" class="tech"><g class="back"><text x="0" y="0">NestJS</text><circle cx="127" cy="-6" r="2" class="dot"/><text x="151" y="0">Node.js</text><circle cx="285" cy="-6" r="2" class="dot"/><text x="309" y="0">Express</text><circle cx="446" cy="-6" r="2" class="dot"/><text x="470" y="0">Spring Boot</text><circle cx="646" cy="-6" r="2" class="dot"/><text x="670" y="0">ASP.NET Core</text><circle cx="867" cy="-6" r="2" class="dot"/><text x="891" y="0">Python</text><circle cx="1017" cy="-6" r="2" class="dot"/><text x="1041" y="0">C#</text><circle cx="1121" cy="-6" r="2" class="dot"/><text x="1145" y="0">C++</text><circle cx="1235" cy="-6" r="2" class="dot"/><g transform="translate(1259 0)"><text x="0" y="0">NestJS</text><circle cx="127" cy="-6" r="2" class="dot"/><text x="151" y="0">Node.js</text><circle cx="285" cy="-6" r="2" class="dot"/><text x="309" y="0">Express</text><circle cx="446" cy="-6" r="2" class="dot"/><text x="470" y="0">Spring Boot</text><circle cx="646" cy="-6" r="2" class="dot"/><text x="670" y="0">ASP.NET Core</text><circle cx="867" cy="-6" r="2" class="dot"/><text x="891" y="0">Python</text><circle cx="1017" cy="-6" r="2" class="dot"/><text x="1041" y="0">C#</text><circle cx="1121" cy="-6" r="2" class="dot"/><text x="1145" y="0">C++</text><circle cx="1235" cy="-6" r="2" class="dot"/></g></g></g>
+</g>
+</svg>
