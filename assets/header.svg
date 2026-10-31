@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
-<title id="title">Hi, I'm Bera. Full-stack Developer.</title><desc id="desc">Hasan Bera Kabadayı. Interfaces, APIs and everything in between.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1525"/><stop offset="1" stop-color="#163b46"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#78e2ca" stroke-opacity=".06"/></pattern><linearGradient id="stroke"><stop stop-color="#78e2ca" stop-opacity="0"/><stop offset=".5" stop-color="#78e2ca"/><stop offset="1" stop-color="#78e2ca" stop-opacity="0"/></linearGradient></defs>
-<rect width="1200" height="190" rx="16" fill="url(#bg)"/><rect width="1200" height="190" rx="16" fill="url(#grid)"/>
-<g fill="none" stroke="#78e2ca" stroke-opacity=".2"><path d="M70 63L40 95l30 32M1130 63l30 32-30 32"/><path d="M103 62L85 128M1097 62l18 66"/></g>
-<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle"><text x="600" y="49" font-size="10" letter-spacing="4" fill="#78e2ca">HASAN BERA KABADAYI</text><text x="600" y="105" font-size="43" font-weight="700" letter-spacing="-1.5" fill="#f0f7fa">Hi, I'm Bera<tspan fill="#78e2ca">.</tspan></text><text x="600" y="143" font-size="14" letter-spacing="1.2" fill="#a6bdca">FULL-STACK DEVELOPER</text></g>
-<path d="M350 167H850" stroke="url(#stroke)"/></svg>
