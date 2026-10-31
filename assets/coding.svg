@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="285" viewBox="0 0 440 285" role="img" aria-labelledby="title desc">
+<title id="title">From interface to API to database</title><desc id="desc">An animated code editor connected to a user interface, an API and a PostgreSQL database.</desc>
+<style>.cursor{animation:blink 1.6s steps(1) infinite}.flow{stroke-dasharray:4 7;animation:flow 4s linear infinite}@keyframes blink{50%{opacity:0}}@keyframes flow{to{stroke-dashoffset:-44}}@media(prefers-reduced-motion:reduce){.cursor,.flow{animation:none}}</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d2e"/><stop offset="1" stop-color="#122d39"/></linearGradient></defs>
+<rect x="12" y="12" width="416" height="261" rx="14" fill="url(#bg)"/>
+<rect x="36" y="34" width="368" height="161" rx="9" fill="#0b1523" stroke="#294657"/><path d="M36 66H404" stroke="#243e4d"/>
+<circle cx="52" cy="50" r="3" fill="#e49395"/><circle cx="65" cy="50" r="3" fill="#ddbc7d"/><circle cx="78" cy="50" r="3" fill="#83cbb1"/>
+<text x="300" y="53" font-family="monospace" font-size="9" fill="#6a8c9f">workspace.ts</text>
+<g font-family="monospace" font-size="11"><text x="53" y="90" fill="#ae9bdf">const <tspan fill="#d4e3ec">product = build({</tspan></text><text x="68" y="113" fill="#a4bdcd">ui: <tspan fill="#8adebd">'thoughtful'</tspan>,</text><text x="68" y="136" fill="#a4bdcd">api: <tspan fill="#8adebd">'reliable'</tspan>,</text><text x="68" y="159" fill="#a4bdcd">data: <tspan fill="#8adebd">'consistent'</tspan></text><text x="53" y="181" fill="#d4e3ec">});</text></g><rect class="cursor" x="77" y="171" width="6" height="12" fill="#78e2ca"/>
+<g stroke="#5ebaa9" stroke-width="1.5" fill="none"><path class="flow" d="M131 231H179M261 231H309"/></g>
+<g font-family="Arial,sans-serif" text-anchor="middle" font-size="10"><rect x="47" y="213" width="84" height="36" rx="7" fill="#1b3b49" stroke="#315765"/><text x="89" y="235" fill="#93dcca">INTERFACE</text><rect x="179" y="213" width="82" height="36" rx="7" fill="#1b3b49" stroke="#315765"/><text x="220" y="235" fill="#93dcca">API</text><rect x="309" y="213" width="84" height="36" rx="7" fill="#1b3b49" stroke="#315765"/><text x="351" y="235" fill="#93dcca">DATABASE</text></g></svg>
