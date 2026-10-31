@@ -1,8 +1,13 @@
-# Hasan Bera Kabadayı
-
-**Full-stack Developer**
-
-React, Angular and Next.js on the frontend. Node.js, NestJS, Spring Boot and ASP.NET Core on the backend.
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-static-mobile-dark.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/banner-static-mobile-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/banner-static-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/banner-static-light.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/banner-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="Hasan Bera Kabadayı — Full-stack Developer. Animated name with scrolling frontend and backend technologies." width="100%">
+</picture>
 
 [Projects](#projects) · [Repositories](https://github.com/hassanbera?tab=repositories)
 
